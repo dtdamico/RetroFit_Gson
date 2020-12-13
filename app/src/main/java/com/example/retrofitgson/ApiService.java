@@ -9,6 +9,6 @@ public interface ApiService {
     Retrofit get annotation with our URL
     And our method that will return us the List of ContactList
     */
-    @GET("/posts")
+    @GET("contacts")
     Call<ContactList> getContacts();
 }

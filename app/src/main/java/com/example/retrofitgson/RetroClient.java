@@ -1,16 +1,16 @@
 package com.example.retrofitgson;
 
+import okhttp3.OkHttpClient;
+import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-import okhttp3.logging.HttpLoggingInterceptor;
-import okhttp3.OkHttpClient;
 
 public class RetroClient {
 
     /********
      * URLS
      *******/
-    private static final String ROOT_URL = "http://jsonplaceholder.typicode.com";
+    private static final String ROOT_URL = "http://jsonplaceholder.typicode.com/dtdamico/RetroFit_Gson/app/sampledata";
 
     /**
      * Get Retrofit Instance
